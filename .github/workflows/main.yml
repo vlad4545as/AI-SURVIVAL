@@ -1,4 +1,5 @@
-name: Build AI SURVIVAL APK
+
+ame: Build AI SURVIVAL APK
 
 on:
   workflow_dispatch:
@@ -22,7 +23,7 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-            - name: Set up Android SDK
+      - name: Set up Android SDK
         uses: android-actions/setup-android@v3
         with:
           packages: 'platform-tools'
@@ -45,4 +46,4 @@ jobs:
           name: AI-SURVIVAL-v1.8-APK
           path: AI_SURVIVAL_Android_CloudBuild/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
-          
+      
