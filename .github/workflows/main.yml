@@ -1,6 +1,5 @@
 
-ame: Build AI SURVIVAL APK
-
+name: Build AI SURVIVAL APK
 on:
   workflow_dispatch:
   push:
