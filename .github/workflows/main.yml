@@ -1,4 +1,3 @@
-
 name: Build AI SURVIVAL APK
 
 on:
@@ -44,4 +43,4 @@ jobs:
           name: AI-SURVIVAL-v1.8-APK
           path: AI_SURVIVAL_Android_CloudBuild/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
-    
+          
